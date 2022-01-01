@@ -8,6 +8,8 @@
 <link rel="stylesheet" type="text/css" href="CSS/style.css">
 <link rel="stylesheet" type="text/css" href="CSS/content.css">
 <link rel="stylesheet" type="text/css" href="CSS/socialmedia.css">
+<link rel="stylesheet" type="text/css" href="CSS/slideshow.css">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,9 +37,28 @@
          </ul>
       </nav>
    <div class="content">
-	   
-	   <p align="center"><img src="IMG/8743000068168.jpg" width="99%" alt=""></p>
-	   
+       
+       <div class="slideshow-container">
+
+        <div class="mySlides fade">
+       <p align="center"><img src="IMG/8743000068168.jpg" width="100%" alt=""></p>    
+       </div>
+
+      <div class="mySlides fade">
+      <p align="center"><img src="IMG/15-157590_open-books.jpg" width="100%" alt=""></p>
+      </div>
+           
+     <div class="mySlides fade">
+      <p align="center"><img src="IMG/12093977600000.jpg" width="100%" alt=""></p>
+      </div>
+</div>
+       <br>
+   <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  </div>
+
 	   <h1>INTRODUCTION</h1>
   <p>
     A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. It provides physical or digital access to material and may be a physical building or room, or a virtual space, or both. A library's collection can include books, periodicals, newspapers, manuscripts, films, maps, prints, documents, microform, CDs, cassettes, videotapes, DVDs, Blu-ray Discs, e-books, audiobooks, databases, and other formats. Libraries range in size from a few shelves of books to several million items. Sidney Sheldon perfectly describes: “Libraries store the energy that fuels the imagination. They open up windows to the world and inspire us to explore and achieve, and contribute to improving our quality of life.”
@@ -121,6 +142,28 @@
         //OR
         //imageEls[i].title="Title of your choice";
      }
+</script>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
 </script>
 	
    <div class="footer">
