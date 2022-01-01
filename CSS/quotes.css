@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.quotes{
+	max-width: 1000px;
+	background-color: #363636;
+	/*border-style: solid;
+	border-color: white;*/
+	border-left: 1px solid #929292;
+    border-right: 1px solid #929292;
+ 	border-top: 1px solid #929292;
+	border-bottom: 1px solid #929292;
+	margin: -10px auto 10px;
+    float: center;
+}
+.quotes p{
+	text-align: justify-all;
+	font-size: 17px;
+	color: white;
+	padding: 15px;
+	margin: -1px;
+	
+}
+.quotes h1{
+	text-align: center;
+	color: white;
+	font-size: 28px;
+}
+
+/*.social {
+  display: inline-block;
+  
+}
+
+.social1{
+    text-align: center;
+}
+
+.social a {
+  padding: 8px;
+}
+
+<div class="social1">
+        <div class="social">
+        <a href="https://www.facebook.com/city.public.library.19"><img src="IMG/FB325456.png" width="30px" alt="FACEBOOK" class="img-responsive floating-image left"></a>
+  
+        <a href="mailto:citypubliclibraryofmunoz@gmail.com?subject = Feedback&body = Message"><img src="IMG/EM4985749.png" width="30px" alt="EMAIL" class="img-responsive floating-image left"></a>
+
+		<a href="#"><img src="IMG/T4328703453.png" width="30px" alt="TWITTER" class="img-responsive floating-image left"></a>
+
+		<a href="#"><img src="IMG/INTS2736673.png" width="30px" alt="INSTAGRAM" class="img-responsive floating-image left"></a>
+        </div>
+        </div>
+
+*/

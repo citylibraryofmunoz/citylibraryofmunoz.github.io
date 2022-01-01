@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Social Media*/
+.social{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.social a{
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #05ff05;
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4);
+  margin: 8px;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.5s ease-in-out;
+}
+.social a:hover{
+  opacity: 0.9;
+  box-shadow: 0px 1px 3px 2px rgba(255, 255, 255, 0.9);
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 110px;
+  /*background-color: #363636;*/
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  /*padding: 10px 0;*/
+  padding-bottom: 16px;
+  border-radius: 6px;
+  transition: 0.5s ease-in-out;
+  
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+ bottom: 100%;
+  left: 50%; 
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+@media (max-width: 767px) {
+    .social{
+      margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+	.social{
+       margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+	.social{
+        margin: 0 auto;
+    }
+}
+
+/*social media icon*/
+
+/*
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="social">
+        <a href="https://www.facebook.com/city.public.library.19" class="fa fa-facebook"></a>
+            
+        <a href="notavailable.html" class="fa fa-twitter"></a>
+            
+        <a href="mailto:citypubliclibraryofmunoz@gmail.com?subject = Feedback&body = Message" class="fa fa-google"></a>
+            
+        <a href="https://www.youtube.com/channel/UCMDXXpVUZ0_02VGN6Le7xBw" class="fa fa-youtube"></a>
+            
+        <a href="instagramnotavailable.html" class="fa fa-instagram"></a>
+            
+        <a href="pinterestnotavailable.html" class="fa fa-pinterest"></a>
+        </div>
+
+.social{
+    max-width: 400px;
+	padding-bottom: 10px;
+	margin:  0px auto 10px;
+    float: center;
+}
+
+.fa {
+  width: 55px;
+  height: 17px;
+  margin-top: -20px;
+  margin: 4px 0px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 2%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}*/
