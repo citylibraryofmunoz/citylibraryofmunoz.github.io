@@ -38,7 +38,7 @@
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 110px;
+  width: 120px;
   /*background-color: crimson;*/
   color: #fff;
   text-align: center;

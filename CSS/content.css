@@ -90,7 +90,7 @@ body{
 }
 .content p{
 	text-align: justify;
-	font-size: 17px;
+	font-size: 18px;
 	color: white;
 	padding: 8px;
 	margin: -1px;
@@ -99,7 +99,7 @@ body{
 .content h1{
 	text-align: center;
 	color: white;
-	font-size: 28px;
+	font-size: 26px;
 }
 
 .content h2{
