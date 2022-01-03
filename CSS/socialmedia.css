@@ -9,7 +9,7 @@
 
 }
 .social a{
-  font-size: 19px;
+  font-size: 22px;
   width: 35px;
   height: 35px;
   line-height: 36px;
@@ -17,10 +17,10 @@
   border-radius: 25%;
   border: 2px solid #05ff05;
   box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4);
-  margin: 8px;
+  margin: 6px;
   color: #fff;
   opacity: 0.7;
-  transition: 0.5s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 .social a:hover{
   opacity: 0.9;
@@ -32,17 +32,17 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px solid white; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 100px;
   /*background-color: crimson;*/
-  color: #fff;
+  color: cyan;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   /*padding: 10px 0;*/
   padding-bottom: 16px;
   border-radius: 6px;
@@ -53,7 +53,7 @@
   position: absolute;
  bottom: 100%;
   left: 50%; 
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  margin-left: -50px; /* Use half of the width (120/2 = 60), to center the tooltip */
   z-index: 1;
 }
 
