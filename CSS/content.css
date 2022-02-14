@@ -96,6 +96,12 @@ body{
 	margin: -1px;
 	
 }
+
+.content s{
+	padding: 160px;
+	margin: -1px;
+    
+}
 .content h1{
 	text-align: center;
 	color: white;
@@ -218,6 +224,10 @@ body{
         max-width: 660px;
     }
 	
+    .content s{
+        padding: 113px;
+        
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -236,6 +246,10 @@ body{
     }
     .box{
         max-width: 550px;
+    }
+    .content s{
+        padding: 73px;
+        
     }
 	
 }
@@ -257,7 +271,10 @@ body{
     .box{
         max-width: 460px;
     }
-	
+    .content s{
+        padding: 73px;
+        
+    }
 }
 
 @media screen and (max-width: 500px) {
